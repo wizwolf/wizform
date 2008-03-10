@@ -1,0 +1,10 @@
+bin\Debug\WinForm.exe
+bin\Debug\WinForm.pdb
+bin\Debug\WizWolf.WizForm.dll
+bin\Debug\WizWolf.WizForm.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinForm.Form1.resources
+obj\Debug\WinForm.Properties.Resources.resources
+obj\Debug\WinForm.csproj.GenerateResource.Cache
+obj\Debug\WinForm.exe
+obj\Debug\WinForm.pdb
