@@ -12,3 +12,4 @@
 
 设计类图:
 http://wizform.googlecode.com/files/wizform_model.jpg
+在这个设计上，我们采用了MVC模式。模型(FormModel)、视图(FormView)、控制器(FormDialog),使模型和视图分离、便于扩展不同的视样式和不同的模式数据源。保证架构的通用性。
