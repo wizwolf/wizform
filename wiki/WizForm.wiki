@@ -1,0 +1,13 @@
+#summary 这是一个通用动态表单生成器
+
+= Introduction =
+
+关于动态表单有许多设计方法，在这个项目里，我们为表单设计一个模型和一个视图
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
