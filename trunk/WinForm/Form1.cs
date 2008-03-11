@@ -19,32 +19,19 @@ namespace WinForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //FormView v = FormViewFactory.Create(m);
-            ////StringInputField f = new StringInputField();
-            ////f.Widget.Text = "ss";
-            //InputField f1 = InputFieldFactory.Create(d1);
-            //InputField f2 = InputFieldFactory.Create(d2);
-            //Label l1 = new Label();            
-            //l1.Text = "aa";
-            //Label l2 = new Label();
-            //l2.Text = "bb";
-            //v.Add(l1, f1.Widget);
-            //v.Add(l2, f2.Widget);
-            //v.Perform(this);
-            //this.Controls.Add(f.Widget);
         }
 
 
         private void button1_Click(object sender, EventArgs e)
         {
             DataField d1 = new DataField();
-            d1.Lable = "llll";
+            d1.Lable = "数字";
             d1.Type = "int";
             DataField d2 = new DataField();
-            d2.Lable = "llll";
+            d2.Lable = "文本";
             d2.Type = "string";
             DataField d3 = new DataField();
-            d3.Lable = "date";
+            d3.Lable = "日期";
             d3.Type = "date";
             FormModel m = new FormModel();
             m.DataFields.Add(d1);
