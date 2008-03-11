@@ -1,4 +1,4 @@
-using System;
+锘縰sing System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
@@ -6,9 +6,9 @@ using System.Windows.Forms;
 namespace WizWolf.WizForm
 {
     /**
-     * 表单窗体
+     * 琛ㄥ崟绐椾綋
      * 
-     * 包含按钮和动作，及一些管理和控制代码
+     * 鍖呭惈鎸夐挳鍜屽姩浣滐紝鍙婁竴浜涚鐞嗗拰鎺у埗浠ｇ爜
      * 
      */
     public class FormDialog : Form

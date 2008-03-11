@@ -1,13 +1,13 @@
-using System;
+锘縰sing System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace WizWolf.WizForm
 {
     /**
-     * 表单模型
+     * 琛ㄥ崟妯″瀷
      * 
-     * 主要用来保存数据，不包含任何GUI或控制器代码 
+     * 涓昏鐢ㄦ潵淇濆瓨鏁版嵁锛屼笉鍖呭惈浠讳綍GUI鎴栨帶鍒跺櫒浠ｇ爜 
      * 
      */
     public class FormModel

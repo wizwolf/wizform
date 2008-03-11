@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
@@ -8,7 +8,7 @@ namespace WizWolf.WizForm
     /**
      * StringInputField
      * 
-     * ¸ºÔðÒ»¸öÎÄ±¾ÊäÈë²¿¼þ 
+     * è´Ÿè´£ä¸€ä¸ªæ–‡æœ¬è¾“å…¥éƒ¨ä»¶ 
      * 
      */
 

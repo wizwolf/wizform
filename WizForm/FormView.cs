@@ -1,4 +1,4 @@
-using System;
+锘縰sing System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
@@ -6,9 +6,9 @@ using System.Windows.Forms;
 namespace WizWolf.WizForm
 {
     /**
-     * 表单视图
+     * 琛ㄥ崟瑙嗗浘
      * 
-     * 负责保存标签和输入控件的布局 
+     * 璐熻矗淇濆瓨鏍囩鍜岃緭鍏ユ帶浠剁殑甯冨眬 
      * 
      */
 
