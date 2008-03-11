@@ -2,12 +2,10 @@
 
 = Introduction =
 
-关于动态表单有许多设计方法，在这个项目里，我们为表单设计一个模型和一个视图
+关于动态表单有许多设计方法，在这个项目里，我们把表单分为模型和视图两部分。
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+模型是指表单所包含的不同类型的表单元素。
+视图是指表单元素在界面中的表现或布局。
