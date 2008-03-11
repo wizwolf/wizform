@@ -9,3 +9,6 @@
 
 模型是指表单所包含的不同类型的表单元素。
 视图是指表单元素在界面中的表现或布局。
+
+设计类图:
+http://wizform.googlecode.com/files/wizform_model.jpg
