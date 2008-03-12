@@ -12,11 +12,11 @@ namespace WizWolf.WizForm
      * 
      */
 
-    public abstract class InputField
+    public abstract class Input
     {
         private Label _label;
 
-        public InputField()
+        public Input()
         {
             this._label = new Label();
         }
@@ -30,6 +30,12 @@ namespace WizWolf.WizForm
         {
             get { return _label; }
             set { _label = value; }
+        }
+
+        public abstract object Value
+        {
+            get;
+            set;
         }
     }
 }

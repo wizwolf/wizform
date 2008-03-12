@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,24 +25,31 @@ namespace WinForm
         private void button1_Click(object sender, EventArgs e)
         {
             DataField d1 = new DataField();
-            d1.Lable = "Êı×Ö";
+            d1.Lable = "æ•°å€¼";
             d1.Type = "int";
             DataField d2 = new DataField();
-            d2.Lable = "ÎÄ±¾";
+            d2.Lable = "å­—ç¬¦";
             d2.Type = "string";
             DataField d3 = new DataField();
-            d3.Lable = "ÈÕÆÚ";
+            d3.Lable = "æ—¥æœŸ";
             d3.Type = "date";
+
+            string[] ar = { "ç”·", "å¥³" };
+            ChoiceDataField d4 = new ChoiceDataField(ar);
+            d4.Lable = "æ€§åˆ«";
+            d4.Type = "choice";
+
             FormModel m = new FormModel();
             m.DataFields.Add(d1);
             m.DataFields.Add(d2);
             m.DataFields.Add(d3);
+            m.DataFields.Add(d4);
 
             FormDialog form = new FormDialog(m);
+            form.Text = "è¡¨å•è¾“å…¥æ¼”ç¤º";
             form.Width = 600;
             form.Height = 480;
             form.ShowDialog();
-
         }
     }
 }

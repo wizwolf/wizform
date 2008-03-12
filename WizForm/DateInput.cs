@@ -6,11 +6,11 @@ using System.Windows.Forms;
 namespace WizWolf.WizForm
 {
 
-    public class DateInputField : InputField
+    public class DateInput : Input
     {
         private DateTimePicker _dateTimePicker;
 
-        public DateInputField()
+        public DateInput()
         {
             this._dateTimePicker = new DateTimePicker();
             //this._dateTimePicker.Size = new System.Drawing.Size(120, 20);
@@ -21,6 +21,18 @@ namespace WizWolf.WizForm
             get
             {
                 return this._dateTimePicker;
+            }
+        }
+
+        public override object Value
+        {
+            get
+            {
+                return this._dateTimePicker.Value;
+            }
+            set
+            {
+                this._dateTimePicker.Value = (DateTime)value;
             }
         }
     }

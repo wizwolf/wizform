@@ -29,5 +29,13 @@ namespace WizWolf.WizForm
             get { return _type; }
             set { _type = value; }
         }
+
+        public virtual object[] Items
+        {
+            get
+            {
+                throw new Exception("");
+            }
+        }    
     }
 }

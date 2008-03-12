@@ -35,8 +35,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChoiceDataField.cs" />
+    <Compile Include="ChoiceInput.cs" />
     <Compile Include="DataField.cs" />
-    <Compile Include="DateInputField.cs">
+    <Compile Include="DateInput.cs">
     </Compile>
     <Compile Include="FormController.cs" />
     <Compile Include="FormDialog.cs">
@@ -46,13 +48,13 @@
     <Compile Include="FormModelFactory.cs" />
     <Compile Include="FormView.cs" />
     <Compile Include="FormViewFactory.cs" />
-    <Compile Include="InputField.cs">
+    <Compile Include="Input.cs">
     </Compile>
-    <Compile Include="InputFieldFactory.cs" />
-    <Compile Include="IntInputField.cs">
+    <Compile Include="InputFactory.cs" />
+    <Compile Include="IntInput.cs">
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringInputField.cs" />
+    <Compile Include="StringInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormDialog.resx">

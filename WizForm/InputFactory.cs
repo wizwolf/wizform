@@ -5,29 +5,32 @@ using System.Windows.Forms;
 
 namespace WizWolf.WizForm
 {
-    public class InputFieldFactory
+    public class InputFactory
     {
-        public static InputField Create(DataField dataField)
+        public static Input Create(DataField dataField)
         {
-            InputField inputField = null;
+            Input input = null;
 
             string type = dataField.Type;            
             switch(type)
             {
                 case "int":
-                    inputField = new IntInputField();
+                    input = new IntInput();
                     break;
                 case "string":
-                    inputField = new StringInputField();
+                    input = new StringInput();
                     break;
                 case "date":
-                    inputField = new DateInputField();
+                    input = new DateInput();
+                    break;
+                case "choice":
+                    input = new ChoiceInput(dataField.Items);
                     break;
             }
 
-            inputField.Label.Text = dataField.Lable;
+            input.Label.Text = dataField.Lable;
 
-            return inputField;
+            return input;
         }
     }
 }
