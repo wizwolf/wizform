@@ -12,11 +12,11 @@ namespace WizWolf.WizForm
      * 
      */
 
-    public class StringInputField : InputField
+    public class StringInput : Input
     {
         private TextBox _textBox;
 
-        public StringInputField()
+        public StringInput()
         {
             this._textBox = new TextBox();
         }
@@ -26,6 +26,18 @@ namespace WizWolf.WizForm
             get
             {
                 return _textBox;
+            }
+        }
+
+        public override object Value
+        {
+            get
+            {
+                return this._textBox.Text;
+            }
+            set
+            {
+                this._textBox.Text = (string)value;
             }
         }
     }

@@ -14,14 +14,14 @@ namespace WizWolf.WizForm
 
     public class FormView
     {
-        private IList<InputField> _inputFields;
+        private IList<Input> _inputFields;
 
         private TableLayoutPanel tableLayoutPanel1;
 
 
         public FormView()
         {
-            this._inputFields = new List<InputField>();
+            this._inputFields = new List<Input>();
             this.tableLayoutPanel1 = new TableLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel1.ColumnCount = 2;
@@ -36,7 +36,7 @@ namespace WizWolf.WizForm
             
         }
 
-        public IList<InputField> InputFields
+        public IList<Input> InputFields
         {
             get { return _inputFields; }
             set { _inputFields = value; }

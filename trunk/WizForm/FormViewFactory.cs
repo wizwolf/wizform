@@ -12,7 +12,7 @@ namespace WizWolf.WizForm
             FormView view = new FormView();
             foreach (DataField dataField in formMode.DataFields)
             {
-                InputField inputField = InputFieldFactory.Create(dataField);
+                Input inputField = InputFactory.Create(dataField);
                 view.Add(inputField.Label,inputField.Widget);
             }
             return view;
